@@ -1,0 +1,67 @@
+body {
+background-color:#6F0000;
+/*background-image:url("kingpongdb.png");*/
+font-family:"Rockwell";
+color:black;
+}
+a:link {color:#AA0000; text-decoration:none;}
+a:visited {color:#AA0000; text-decoration:none;}
+a:hover {color:black; text-decoration:none;} 
+/*a:active {color:#4D85D6;}*/
+
+.bordered{
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+width:500px; 
+
+padding:10px;
+} 
+.error{
+color:red; 
+}
+.menubutton{ 
+float:right;
+padding:5px; 
+}
+.name{
+float:left; 
+padding:5px;
+}
+.ranktable{ 
+float:left;
+padding:10px; 
+}
+#profile { 
+float:left;
+}
+#picture {
+float:left;
+padding-right:50px;
+}
+#logo {
+position:relative;
+height:150px;
+z-index:100;
+float:left;
+}
+#header {
+background-color:white;
+height:115px;
+margin:5px;
+}
+#maincontent {
+position:relative;
+top:20px;
+background-color:white;
+margin-left:5px;
+margin-right:5px;
+}
+#contents {
+padding-left:5px;
+padding-right:5px;
+clear:right;
+}
+#searchbar {
+clear:right;
+float:right;
+}
